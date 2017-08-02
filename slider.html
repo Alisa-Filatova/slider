@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slider__viewport">
+            <ul class="slider__wrapper">
+                <li class="slide">
+                    <img src="img/1.jpg" alt="1" class="slide-img">
+                </li>
+                <li class="slide">
+                    <img src="img/2.jpg" alt="2" class="slide-img">
+                </li>
+                <li class="slide">
+                    <img src="img/3.jpg" alt="3" class="slide-img">
+                </li>
+                <li class="slide slide4">
+                    <img src="img/4.jpg" alt="4" class="slide-img">
+                </li>
+            </ul>
+            <div class="nav">
+                <button class="nav__btn nav__btn_prev"></button>
+                <button class="nav__btn nav__btn_next"></button>
+            </div>
+
+            <ul class="paginator">
+                <li data-slide="1" class="paginator__item paginator__item_current"></li>
+                <li data-slide="2" class="paginator__item"></li>
+                <li data-slide="3" class="paginator__item"></li>
+                <li data-slide="4" class="paginator__item"></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
